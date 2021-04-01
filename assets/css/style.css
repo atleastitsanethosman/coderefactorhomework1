@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* formatting for block with company name and nav links, setting fonts and color choices */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,10 +21,12 @@ body {
     font-size: 48px;
 }
 
+/* formatting to make s e o in horizon a different color to highlight */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* formatting for navigation links in header */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,6 +53,7 @@ p {
     font-size: 16px;
 }
 
+/* image showing a team at work directly below header */
 .hero {
     height: 800px;
     width: 100%;
@@ -57,6 +61,25 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* formatting for section containing articles explaining services offerred */
+.services-offerred {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.services-offerred img {
+    max-height: 200px;
+}
+
+.services-offerred h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .float-left {
@@ -75,6 +98,7 @@ p {
     margin-left: 20px;
 }
 
+/* formatting for aside sections showing the benefits of using the services offerred by Horiseon */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,26 +126,7 @@ p {
     max-width: 150px;
 }
 
-/* formatting for main section explaining service offerred */
-.services-offerred {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.services-offerred img {
-    max-height: 200px;
-}
-
-.services-offerred h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* formatting for footer section */
+/* formatting for footer section, credits*/
 .footer {
     padding: 30px;
     clear: both;
@@ -129,6 +134,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
