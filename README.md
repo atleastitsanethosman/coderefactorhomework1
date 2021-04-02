@@ -13,7 +13,7 @@ This project was a code refactor on a webpage for a fictional company "Horiseon"
 
 ## Project Elements:<br>
 
-1. The webpage has a header with the company name and a specifically formatted span to show a contrast for the letters S, E, and O to match the first letter of the primary services offerred.  The header also includes a set of navigation links to allow the user to rapidly move to articles about the services the company offers.
+1. The webpage has a header with the company name and a specifically formatted span to show a contrast for the letters S, E, and O to match the first letter of one of the primary services offerred, Search Engine Optimization.  The header also includes a set of navigation links to allow the user to rapidly move to articles about the services the company offers.
 
 2. There is a background image for styling, showing a team at work.
 
